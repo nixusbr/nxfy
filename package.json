@@ -1,0 +1,41 @@
+{
+  "name": "@nxfy/core",
+  "version": "1.0.1",
+  "sass": "src/scss/index.scss",
+  "private": true,
+  "homepage": "https://nxfy.com.br",
+  "author": "Nixus (https://nixus.com.br)",
+  "contributors": [
+    "Rhenan Medeiros <rhenan.lm@gmail.com>",
+    "Rhikson Medeiros <rhiksonmedeiros@gmail.com>"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "eslint": "eslint \"**/*.+(js|jsx|ts|tsx)\"",
+    "eslint:fix": "eslint --fix \"**/*.+(js|jsx|ts|tsx)\"",
+    "prettier": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
+    "prettier:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\""
+  },
+  "peerDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
+    "node-sass": "^7.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3",
+    "react-bootstrap": "^2.7.0",
+    "react-code-blocks": "^0.0.9-0"
+  }
+}
